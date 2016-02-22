@@ -1,4 +1,6 @@
 
+html { overflow-y: scroll;}
+
 body {
 	background-color: #262626;
 	font-family: National;
@@ -12,6 +14,10 @@ img {
 	padding-bottom: 10px;
 /*	border: #f00 1px solid;
 */}
+
+a {
+	color: #fff;
+}
 
 /* Clear fix hack */
 .clearfix:after {
@@ -47,6 +53,25 @@ img {
 	margin-right: 5%;
 	margin-top: 5%;
 }
+
+/*.grid:after {
+	content: '';
+	display: block;
+	clear: both;	
+}
+
+.grid-sizer, .grid-item {
+	width: 30%;
+}
+
+.grid-item {
+	float: left;
+}
+
+.grid-item img {
+	display: block;
+	max-width: 100%;
+}*/
 
 .quote-button {
 	display: block;
