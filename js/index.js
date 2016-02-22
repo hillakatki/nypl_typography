@@ -12,8 +12,9 @@
 
 $(window).load(function(){
 	$('#grid').masonry({
-	  "columnWidth" : 350,
-	  "itemSelector": ".grid-item"
+	  columnWidth: 300,
+	  gutter: 40,
+	  itemSelector: ".grid-item"
 	});
 });
 

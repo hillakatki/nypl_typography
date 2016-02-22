@@ -4,19 +4,7 @@ html { overflow-y: scroll;}
 body {
 	background-color: #262626;
 	font-family: National;
-	color: #fff;
 
-}
-
-img {
-	width: 100%;
-	padding-top: 45px;
-	padding-bottom: 10px;
-/*	border: #f00 1px solid;
-*/}
-
-a {
-	color: #fff;
 }
 
 /* Clear fix hack */
@@ -29,18 +17,22 @@ a {
      height: 0;
 }
 
-
 .headers {
 	border-bottom: 1px #666 solid;
 	padding-bottom: 30px;
 	height: 35px;
 	box-sizing:border-box;
+}
+
+#quote.headers  {
+	margin-bottom: 25px;
 
 }
 
 .label {	
 	display: block;
 	float: left;
+	color: #fff;
 	font-weight: 500;
 	font-size: 24px;
 	padding-bottom: 10px;
@@ -54,27 +46,10 @@ a {
 	margin-top: 5%;
 }
 
-/*.grid:after {
-	content: '';
-	display: block;
-	clear: both;	
-}
-
-.grid-sizer, .grid-item {
-	width: 30%;
-}
-
-.grid-item {
-	float: left;
-}
-
-.grid-item img {
-	display: block;
-	max-width: 100%;
-}*/
 
 .quote-button {
 	display: block;
+	color: #fff;
 	font-weight: 500;
 	font-size: 22px;
 	text-transform: uppercase;
@@ -89,7 +64,53 @@ a {
 	color: #fff;
 }
 
-.source {
+.letter {
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.word {
+	display: inline-block;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+.attribution {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+
+.title {
+	font-style:italic;
+}
+
+.grid-item {
+	margin-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px #666 solid;
+}
+
+
+.metadata {
+	color: #dedede;
+	width: 300px;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+.metadata-name {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: .5px;
+	font-weight: 500;
+}
+
+
+/*.source {
 	display: block;
 	float: left;
 	width: 350px;
@@ -103,19 +124,11 @@ a {
 	width: 350px;
 	border: 1px green solid;
 	margin: 0;
-}
+}*/
 
-.metadata {
+/*img {
 	width: 100%;
-	font-size: 20px;
-	line-height: 24px;
-	font-weight: 300px;
-	padding-top: 10px;
-}
-
-.metadata-name {
-	text-transform: uppercase;
-	font-size: 18px;
-	letter-spacing: .5px;
-	font-weight: 500;
-}
+	padding-top: 45px;
+	padding-bottom: 10px;
+/*	border: #f00 1px solid;
+*/
