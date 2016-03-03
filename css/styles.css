@@ -69,6 +69,11 @@ body {
 	margin-right: 4px;
 }
 
+/*.last {
+	display: inline-block;
+	margin-right: 50px;
+}*/
+
 .word {
 	display: inline-block;
 	margin-right: 50px;
