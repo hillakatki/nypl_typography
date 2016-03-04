@@ -107,7 +107,7 @@ body {
 	padding-top: 10px;
 }
 
-.metadata-name {
+.source-title, .source-date, .source-collection {
 	text-transform: uppercase;
 	font-size: 16px;
 	letter-spacing: .5px;
