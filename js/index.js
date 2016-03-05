@@ -1,7 +1,5 @@
 
-
-
-
+//Test variable for the letter names
 var letters = {
 	"a" : ["a_01","a_02","a_03"],
 	"b" : ["b_01","b_02","b_03"],
@@ -9,12 +7,7 @@ var letters = {
 	"d" : ["d_01","d_02","d_03"],
 };
 
-
-
-
-
-
-
+//test variable for the source metadata
 var sources = {
   "a_01": {
     "title": "DAILY BREAKFAST [held by] MANSION [at] [BUFFALO, NY] ([COFFEE SHOP])",
@@ -84,7 +77,7 @@ var sources = {
 
 
 
-
+//declaring variables
 var text = "aaa b cccc aa bb cccccc";
 var letterArray;
 var imageName;
@@ -95,37 +88,42 @@ var wordCount = 0;
 // $.getJSON('json/sources.json', function(json){
 // 	console.log(json.imageName);
 // });
+// get source : data[ letterArray[randomNum] ]
 
 
+//running a for loop for the length of the text
 for (var i = 0; i < text.length; i++) {
 	console.log("i: "+i);
-	//if the letter is a space, start a new word by appending a word div
+	//if the character is a space, start a new word by appending a div called word withing the div called quote-box
 	if (text[i] === " ") {
 		$(".quote-box").append('<div class="word"></div>');
 		wordCount++;
 		// console.log("space!");
 	}else {
+		//if the character is a letter, find the array for that letter
 		letterArray = letters[text[i]];
-		// console.log(letterArray);
+		//console.log(letterArray);
+		//generate a random number
 		var randomNum = Math.floor(Math.random() * letterArray.length);
-		// console.log(letterArray.length);
-		// console.log(randomNum);
+		//console.log(letterArray.length);
+		//console.log(randomNum);
+		//use that random number to generate a specific letter name
 		imageName = letterArray[randomNum];
 		console.log(imageName);
+		//append a div called letter with the image name concatenated in it
 		$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
-
-		//getting the array of metadata associated with the letter:
+		//get the array of metadata associated with the letter:
 		var letterSource = sources[imageName];
+		//append the source image, title, date, and collection name within a div called grid-item, to a div called grid
 		$("#grid").append('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
-
 		console.log(letterSource.title);
 
 
-			// get source : data[ letterArray[randomNum] ]
 	};
 
 };
 
+//use the masonry plugin to generate the grid of sources
 $(window).load(function(){
 	$('#grid').masonry({
 	  columnWidth: 300,
