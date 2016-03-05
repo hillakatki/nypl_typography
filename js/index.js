@@ -274,15 +274,17 @@ var quotes = {
   }
 };
 
+$('.quote-button').on('click', function(){
+	//random quote generator; need to use Object.keys to get the length of the object
+	var randomNum2 = Math.floor(Math.random() * Object.keys(quotes).length);
+	//choose a quote, put its metadata in an array
+	var quoteArray = quotes[randomNum2];
+	//for now, console log the quote, author, and title
+	console.log(quoteArray.quote);
+	console.log(quoteArray.author);
+	console.log(quoteArray.title);
+});
 
-//random quote generator; need to use Object.keys to get the length of the object
-var randomNum2 = Math.floor(Math.random() * Object.keys(quotes).length);
-//choose a quote, put its metadata in an array
-var quoteArray = quotes[randomNum2];
-//for now, console log the quote, author, and title
-console.log(quoteArray.quote);
-console.log(quoteArray.author);
-console.log(quoteArray.title);
 
 
 //declaring variables
