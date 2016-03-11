@@ -1,17 +1,31 @@
 //declaring variables
 var newQuote;
-
-// var text = "one must be careful of books and what is inside them for words have the power to change us";
 var letterArray;
 var imageName;
 var wordCount = 0;
 var currentSourceNames = [];
 var sourceCount = 0;
 
+
+//on load of the page, generate a quote and display its sources:
+$(document).ready (function(){
+	quoteGenerator();
+
+	//Will call the sourceDisplay function only when the images are loaded
+	$('#grid').imagesLoaded(function(){
+		sourceDisplay();
+	});
+});
+
+
 //on click of the quote button:
 $('.quote-button').on('click', function(){
 	quoteClear();
 	quoteGenerator();
+
+	//clear out the sources
+	$('#grid').masonry('layout');
+
 
 	//Will call the sourceDisplay function only when the images are loaded
 	$('#grid').imagesLoaded(function(){
@@ -22,11 +36,15 @@ $('.quote-button').on('click', function(){
 function quoteClear() {
 	//clear out previous quote
 	$('.quote-box').html('<div class="word"></div>');
-	console.log('just emptied quote box');
 	
 	//clear out previous attribution
 	$('.author').empty();
 	$('.title').empty();
+
+	//reset wordCount to 0
+	wordCount = 0;
+
+
 };
 
 function quoteGenerator() {
@@ -59,8 +77,7 @@ function quoteDisplay (text) {
 	for (var i = 0; i < text.length; i++) {
 		//if the character is a space, start a new word by appending a div called word withing the div called quote-box
 		if (text[i] === " ") {
-			$(".quote-box").append('<div class="word">test</div>');
-			console.log("word div appended");
+			$(".quote-box").append('<div class="word"></div>');
 			wordCount++;
 		}else {
 			//if the character is a letter, find the array for that letter
@@ -69,11 +86,9 @@ function quoteDisplay (text) {
 			var randomNum = Math.floor(Math.random() * letterArray.length);
 			//use that random number to generate a specific letter name
 			imageName = letterArray[randomNum];
-			console.log(imageName);
 			//append a div called letter with the image name concatenated in it
 			$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
 			//get the array of metadata associated with the letter:
-			console.log($('.word'));
 
 			var letterSource = sources[imageName];
 
@@ -101,14 +116,12 @@ function quoteDisplay (text) {
 		};
 
 	};
-	console.log('end of quoteDisplay');
 
 };
 
 //use the masonry plugin to generate the grid of sources
 function sourceDisplay () {
 	// $(window).load(function(){
-		console.log('in the sourceDisplay function now')
 		$('#grid').masonry({
 		  columnWidth: 300,
 		  gutter: 40,
