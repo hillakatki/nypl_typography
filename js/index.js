@@ -1,18 +1,35 @@
-
+//declaring variables
 var newQuote;
-var buttonClicks = 0;
+
+// var text = "one must be careful of books and what is inside them for words have the power to change us";
+var letterArray;
+var imageName;
+var wordCount = 0;
+var currentSourceNames = [];
+var sourceCount = 0;
+
 //on click of the quote button:
 $('.quote-button').on('click', function(){
-	//clear out previous quote
-	buttonClicks++;
-	console.log('button clicked:'+buttonClicks);
+	quoteClear();
+	quoteGenerator();
 
+	//Will call the sourceDisplay function only when the images are loaded
+	$('#grid').imagesLoaded(function(){
+		sourceDisplay();
+	});
+});
+
+function quoteClear() {
+	//clear out previous quote
 	$('.quote-box').html('<div class="word"></div>');
 	console.log('just emptied quote box');
-
+	
+	//clear out previous attribution
 	$('.author').empty();
 	$('.title').empty();
+};
 
+function quoteGenerator() {
 	//random quote generator; need to use Object.keys to get the length of the object
 	var randomNum2 = Math.floor(Math.random() * Object.keys(quotes).length);
 	//choose a quote, put its metadata in an array
@@ -23,48 +40,27 @@ $('.quote-button').on('click', function(){
 	console.log(quoteArray.author);
 	console.log(quoteArray.title);
 	
+	//assign the quote to the variable newQuote
 	newQuote = quoteArray.quote;
+	//run the quoteDisplay function, passing the newQuote as an argument
 	quoteDisplay(newQuote);
 
+	//append the new author and title in the attribution
 	$('.author').append(quoteArray.author);
 	$('.title').append(quoteArray.title);
 
-	//Will call the sourceDisplay function only when the images are loaded
-	$('#grid').imagesLoaded(function(){
-		sourceDisplay();
-	});
+};
 
 
-});
-
-
-
-//declaring variables
-// var text = "one must be careful of books and what is inside them for words have the power to change us";
-var letterArray;
-var imageName;
-var wordCount = 0;
-var currentSourceNames = [];
-var sourceCount = 0;
-
-
-// get json
-// var sources;
-// $.getJSON('json/sources.json', function(json){
-// 	console.log(json.imageName);
-// });
-// get source : data[ letterArray[randomNum] ]
-
-
-//running a for loop for the length of the text
+//this function will display the quote
 function quoteDisplay (text) {
-	
+
+//running a for loop for the length of the text	
 	for (var i = 0; i < text.length; i++) {
 		//if the character is a space, start a new word by appending a div called word withing the div called quote-box
 		if (text[i] === " ") {
-			$(".quote-box").append('<div class="word"></div>');
+			$(".quote-box").append('<div class="word">test</div>');
 			console.log("word div appended");
-
 			wordCount++;
 		}else {
 			//if the character is a letter, find the array for that letter
@@ -73,10 +69,11 @@ function quoteDisplay (text) {
 			var randomNum = Math.floor(Math.random() * letterArray.length);
 			//use that random number to generate a specific letter name
 			imageName = letterArray[randomNum];
+			console.log(imageName);
 			//append a div called letter with the image name concatenated in it
 			$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
 			//get the array of metadata associated with the letter:
-			console.log("letter div appended");
+			console.log($('.word'));
 
 			var letterSource = sources[imageName];
 
@@ -110,7 +107,6 @@ function quoteDisplay (text) {
 
 //use the masonry plugin to generate the grid of sources
 function sourceDisplay () {
-	
 	// $(window).load(function(){
 		console.log('in the sourceDisplay function now')
 		$('#grid').masonry({
@@ -122,3 +118,12 @@ function sourceDisplay () {
 };
 
 
+
+
+
+// get json
+// var sources;
+// $.getJSON('json/sources.json', function(json){
+// 	console.log(json.imageName);
+// });
+// get source : data[ letterArray[randomNum] ]
