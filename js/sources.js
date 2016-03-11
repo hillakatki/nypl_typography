@@ -1274,5 +1274,33 @@ var sources = {
     "collection": "Children's Book Illustrations",
     "document_link": "http://digitalcollections.nypl.org/items/6b26eaac-2bad-1da7-e040-e00a18062258",
     "document_name": "nypl.digitalcollections.6b26eaac-2bad-1da7-e040-e00a18062258.001.w.jpg"
+  },
+  "apostrophe_01": {
+    "title": "UVWXYZ All had a large slice and went off to bed",
+    "date": "191-?",
+    "collection": "Children's Book Illustrations",
+    "document_link": "http://digitalcollections.nypl.org/items/6b26eaac-2bad-1da7-e040-e00a18062258",
+    "document_name": "nypl.digitalcollections.6b26eaac-2bad-1da7-e040-e00a18062258.001.w.jpg"
+  },
+  "comma_01": {
+    "title": "UVWXYZ All had a large slice and went off to bed",
+    "date": "191-?",
+    "collection": "Children's Book Illustrations",
+    "document_link": "http://digitalcollections.nypl.org/items/6b26eaac-2bad-1da7-e040-e00a18062258",
+    "document_name": "nypl.digitalcollections.6b26eaac-2bad-1da7-e040-e00a18062258.001.w.jpg"
+  },
+  "semi_colon_01": {
+    "title": "UVWXYZ All had a large slice and went off to bed",
+    "date": "191-?",
+    "collection": "Children's Book Illustrations",
+    "document_link": "http://digitalcollections.nypl.org/items/6b26eaac-2bad-1da7-e040-e00a18062258",
+    "document_name": "nypl.digitalcollections.6b26eaac-2bad-1da7-e040-e00a18062258.001.w.jpg"
+  },
+  "semi_colon_02": {
+    "title": "UVWXYZ All had a large slice and went off to bed",
+    "date": "191-?",
+    "collection": "Children's Book Illustrations",
+    "document_link": "http://digitalcollections.nypl.org/items/6b26eaac-2bad-1da7-e040-e00a18062258",
+    "document_name": "nypl.digitalcollections.6b26eaac-2bad-1da7-e040-e00a18062258.001.w.jpg"
   }
 };

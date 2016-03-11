@@ -26,7 +26,6 @@ $('.quote-button').on('click', function(){
 	//clear out the sources
 	$('#grid').masonry('layout');
 
-
 	//Will call the sourceDisplay function only when the images are loaded
 	$('#grid').imagesLoaded(function(){
 		sourceDisplay();
@@ -80,12 +79,24 @@ function quoteDisplay (text) {
 			$(".quote-box").append('<div class="word"></div>');
 			wordCount++;
 		}else {
-			//if the character is a letter, find the array for that letter
-			letterArray = letters[text[i]];
+			//if the character is an apostrophe, assign the appropriate array
+			if (text[i] === "'") {
+				letterArray = letters['apostrophe'];
+			//if the character is a comma, assign the appropriate array
+			}else if (text[i] === ",") {
+				letterArray = letters['comma'];
+			//if the character is a semi-colon, assign the appropriate array
+			} else if (text[i] === ";") {
+				letterArray = letters['semi_colon'];
+			//if the character is any other character, find the array for that character
+			}else {
+				letterArray = letters[text[i]];
+			};
 			//generate a random number
 			var randomNum = Math.floor(Math.random() * letterArray.length);
 			//use that random number to generate a specific letter name
 			imageName = letterArray[randomNum];
+			console.log(imageName);
 			//append a div called letter with the image name concatenated in it
 			$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
 			//get the array of metadata associated with the letter:

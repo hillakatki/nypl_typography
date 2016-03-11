@@ -1,19 +1,16 @@
 var quotes = {
   "0": {
-    "quote": "in our village folks say god crumbles up the old moon into stars",
-    // "quote": "in the",
+    "quote": "in our village, folks say god crumbles up the old moon into stars.",
     "author": "Alexander Solzhenitsyn",
     "title": "One Day in the Life of Ivan Denisovich"
   },
   "1": {
-    "quote": "america ive given you all and now im nothing",
-    // "quote": "amer ica",
+    "quote": "america, i've given you all and now i'm nothing.",
     "author": "Allen Ginsburg",
     "title": "America"
   },
   "2": {
-    "quote": "in spite of everything i still believe people are really good at heart",
-    // "quote": "peo ple",
+    "quote": "in spite of everything, i still believe people are really good at heart.",
     "author": "Anne Frank",
     "title": "The Diary of Anne Frank"
   },

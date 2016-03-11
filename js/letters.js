@@ -26,4 +26,11 @@ var letters = {
 	"x" : ["x_01","x_02","x_03","x_04","x_05"],
 	"y" : ["y_01","y_02","y_03"],
 	"z" : ["z_01","z_02","z_03","z_04","z_05"],
+	"&" : ["ampersand_01"],
+	"." : ["period_01"],
+	"?" : ["question_mark_01"],
+	"apostrophe" : ["apostrophe_01"],
+	"comma" : ["comma_01"],
+	"semi_colon" : ["semi_colon_01","semi_colon_02"],
+
 };
