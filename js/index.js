@@ -9,6 +9,7 @@ var sourceCount = 0;
 
 //on load of the page, generate a quote and display its sources:
 $(document).ready (function(){
+	sourceDisplay();
 	quoteGenerator();
 
 	//Will call the sourceDisplay function only when the images are loaded
@@ -23,13 +24,13 @@ $('.quote-button').on('click', function(){
 	quoteClear();
 	quoteGenerator();
 
-	//clear out the sources
-	$('#grid').masonry('layout');
+	// //clear out the sources
+	// $('#grid').masonry('layout');
 
-	//Will call the sourceDisplay function only when the images are loaded
-	$('#grid').imagesLoaded(function(){
-		sourceDisplay();
-	});
+	// //Will call the sourceDisplay function only when the images are loaded
+	// $('#grid').imagesLoaded(function(){
+	// 	sourceDisplay();
+	// });
 });
 
 function quoteClear() {
@@ -42,6 +43,7 @@ function quoteClear() {
 
 	//reset wordCount to 0
 	wordCount = 0;
+	// sourceCount = 0;
 
 
 };
@@ -96,7 +98,6 @@ function quoteDisplay (text) {
 			var randomNum = Math.floor(Math.random() * letterArray.length);
 			//use that random number to generate a specific letter name
 			imageName = letterArray[randomNum];
-			console.log(imageName);
 			//append a div called letter with the image name concatenated in it
 			$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
 			//get the array of metadata associated with the letter:
@@ -119,12 +120,22 @@ function quoteDisplay (text) {
 				currentSourceNames[sourceCount] = letterSource.document_name;
 				//increase the count of sources
 				sourceCount++;
+				source = $('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
+				$("#grid").append(source).masonry( 'appended', source );
+
+
 				//append the source image, title, date, and collection name within a div called grid-item, to a div called grid
-				$("#grid").append('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
+				// $("#grid").append('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
 
 			};
 
 		};
+		if (i === (text.length - 1)) {
+            //Will call the sourceDisplay function only when the images are loaded
+            $('#grid').imagesLoaded(function(){
+                sourceDisplay();
+            });
+        };
 
 	};
 
