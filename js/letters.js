@@ -29,6 +29,7 @@ var letters = {
 	"&" : ["ampersand_01"],
 	"." : ["period_01"],
 	"?" : ["question_mark_01"],
+	"slash" : ["slash_01"],
 	"apostrophe" : ["apostrophe_01"],
 	"comma" : ["comma_01"],
 	"semi_colon" : ["semi_colon_01","semi_colon_02"],

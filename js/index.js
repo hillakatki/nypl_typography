@@ -90,6 +90,9 @@ function quoteDisplay (text) {
 			//if the character is a semi-colon, assign the appropriate array
 			} else if (text[i] === ";") {
 				letterArray = letters['semi_colon'];
+			//if the character is a slash, assign the appropriate array
+			} else if (text[i] === "/") {
+				letterArray = letters['slash'];
 			//if the character is any other character, find the array for that character
 			}else {
 				letterArray = letters[text[i]];
