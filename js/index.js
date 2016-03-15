@@ -67,6 +67,7 @@ function quoteGenerator() {
 	//append the new author and title in the attribution
 	$('.author').append(quoteArray.author);
 	$('.title').append(quoteArray.title);
+	$('.date').append(quoteArray.year);
 
 };
 
