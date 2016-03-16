@@ -40,6 +40,7 @@ function quoteClear() {
 	//clear out previous attribution
 	$('.author').empty();
 	$('.title').empty();
+	$('.date').empty();
 
 	//reset wordCount to 0
 	wordCount = 0;
@@ -103,9 +104,15 @@ function quoteDisplay (text) {
 			//use that random number to generate a specific letter name
 			imageName = letterArray[randomNum];
 			//append a div called letter with the image name concatenated in it
-			$(".word").eq(wordCount).append('<div class="letter"><img src="images/letters/'+imageName+'.jpg"/></div>');
-			//get the array of metadata associated with the letter:
+			$(".word")
+				.eq(wordCount)
+				.append('<div class="letter" data-index="'+i+'"><img src="images/letters/'+imageName+'.jpg"/></div>');
 
+			(function(){
+				$('.letter[data-index="'+i+'"]').animate({opacity:1},(50*i));
+			})();
+
+			//get the array of metadata associated with the letter:
 			var letterSource = sources[imageName];
 
 			//check if doument sources are the same
@@ -124,11 +131,13 @@ function quoteDisplay (text) {
 				currentSourceNames[sourceCount] = letterSource.document_name;
 				//increase the count of sources
 				sourceCount++;
+				//append the source image, title, date, and collection name within a div called grid-item, to a div called grid
 				source = $('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
+				//append the source using masonry
 				$("#grid").append(source).masonry( 'appended', source );
 
 
-				//append the source image, title, date, and collection name within a div called grid-item, to a div called grid
+				//old append code: append the source image, title, date, and collection name within a div called grid-item, to a div called grid
 				// $("#grid").append('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
 
 			};

@@ -42,19 +42,31 @@
 			<div id="grid"></div>		
 		</div>
 
-<!-- 		<div class="box clearfix">
+		<div class="box clearfix">
 			<div id="submit-a-quote" class="headers" >
 				<h2 class="label">Submit a Quote</h2>	
 				<div class="quote-form">		
-					<form action = "newsletter.php" method="post">
-					    <label for="firstName"><span>Literary Quote: </span></label>
-					    <textarea rows="5" cols="100" name="quote" id="quote" placeholder="Enter your literary quote!"/></textarea>
+					<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form_response">
+						<input type="hidden" name="to_email" value="hillakatki@gmail.com" />
+						<input type="hidden" name="to_name" value="NYPL Quotes" />
+						<input type="hidden" name="to_subject" value="New quote submitted!" />					    
+						<label for="quote"><p>Quote:</p></label>
+					    <textarea name="quote" id="quote" class="textfield form-quote" placeholder="Enter your favorite quote from literature!"/></textarea>
+					    <label for="author"><p>Author:</p></label>
+					    <input type="text" name="author" id="author" class="textfield" placeholder="Name of author"/>
+					    <label for="title"><p>Title:</p></label>
+					    <input type="text" name="title" id="title" class="textfield" placeholder="Title of book"/>
+					    <label for="title"><p>Year:</p></label>
+					    <input type="text" name="year" id="year" class="textfield" placeholder="Year published"/>
+					    <label for="submit-button"></label>					    
+					    <input type="submit" value="submit" id="submit-button"/>
 				    </form>
+				    <iframe name="form_response" style="width:0;height:0;visibility:hidden;overflow:hidden;"></iframe>
 			    </div>
 		    </div>
 
 
-		</div> -->
+		</div>
 
 	<script src="js/quotes.js"></script>
 	<script src="js/letters.js"></script>
