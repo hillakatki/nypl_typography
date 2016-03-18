@@ -1,5 +1,6 @@
 //declaring variables
 var newQuote;
+var originalQuote;
 var letterArray;
 var imageName;
 var wordCount = 0;
@@ -61,20 +62,25 @@ function quoteGenerator() {
 	console.log(quoteArray.title);
 	
 	//assign the quote to the variable newQuote
-	newQuote = quoteArray.quote;
+	originalQuote = quoteArray.quote;
+	newQuote = originalQuote.toLowerCase();
+	console.log(newQuote);
+	newAuthor = quoteArray.author;
+	newTitle = quoteArray.title;
+	newYear = quoteArray.year;
 	//run the quoteDisplay function, passing the newQuote as an argument
-	quoteDisplay(newQuote);
+	quoteDisplay(newQuote, newAuthor, newTitle, newYear);
 
 	//append the new author and title in the attribution
-	$('.author').append(quoteArray.author);
-	$('.title').append(quoteArray.title);
-	$('.date').append(quoteArray.year);
+	// showAttribution(quoteArray.author, quoteArray.title, quoteArray.year);
+
+
 
 };
 
 
 //this function will display the quote
-function quoteDisplay (text) {
+function quoteDisplay (text, author, title, year) {
 
 //running a for loop for the length of the text	
 	for (var i = 0; i < text.length; i++) {
@@ -108,9 +114,8 @@ function quoteDisplay (text) {
 				.eq(wordCount)
 				.append('<div class="letter" data-index="'+i+'"><img src="images/letters/'+imageName+'.jpg"/></div>');
 
-			(function(){
-				$('.letter[data-index="'+i+'"]').animate({opacity:1},(50*i));
-			})();
+			//call showLetter, which will animate the letters
+			showLetter(i);
 
 			//get the array of metadata associated with the letter:
 			var letterSource = sources[imageName];
@@ -132,7 +137,7 @@ function quoteDisplay (text) {
 				//increase the count of sources
 				sourceCount++;
 				//append the source image, title, date, and collection name within a div called grid-item, to a div called grid
-				source = $('<div class="grid-item"><img src="images/originals/'+letterSource.document_name+'" width="300"/><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
+				source = $('<div class="grid-item"><a href="'+letterSource.document_link+'" target="_blank"><img src="images/originals/'+letterSource.document_name+'" width="300"/></a><div class="metadata"><span class="source-title">Title: </span>'+letterSource.title+'</div><div class="metadata"><span class="source-date">Date: </span>'+letterSource.date+'</div><div class="metadata"><span class="source-collection">Collection: </span>'+letterSource.collection+'</div></div>');
 				//append the source using masonry
 				$("#grid").append(source).masonry( 'appended', source );
 
@@ -152,6 +157,13 @@ function quoteDisplay (text) {
 
 	};
 
+	//when the whole quote is finished displaying, display the attribution
+	setTimeout(function() {
+		$('.author').append('&mdash; '+author+', ').animate({opacity:1},1000);
+		$('.title').append(title+', ').animate({opacity:1},1000);
+		$('.date').append(year).animate({opacity:1},1000);
+	},(50*i));
+
 };
 
 //use the masonry plugin to generate the grid of sources
@@ -165,7 +177,24 @@ function sourceDisplay () {
 	// });
 };
 
+//animate the letters in the quote
+function showLetter(i){
+	setTimeout(function(){
+		// pops on
+		// $('.letter[data-index="'+i+'"]').css({opacity:1});
+		// fade
+		$('.letter[data-index="'+i+'"]').animate({opacity:1},1000);
+	},(50*i));
+};
 
+// function showAttribution(author, title, year) {
+// 	setTimeout(function() {
+// 		$('.author').append(author).animate({opacity:1},1000);
+// 		$('.title').append(title).animate({opacity:1},1000);
+// 		$('.date').append(year).animate({opacity:1},1000);
+// 	},(100*i));
+
+// };
 
 
 
