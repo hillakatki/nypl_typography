@@ -60,6 +60,8 @@ function quoteGenerator() {
 	console.log(quoteArray.quote);
 	console.log(quoteArray.author);
 	console.log(quoteArray.title);
+
+
 	
 	//assign the quote to the variable newQuote
 	originalQuote = quoteArray.quote;
@@ -71,12 +73,19 @@ function quoteGenerator() {
 	//run the quoteDisplay function, passing the newQuote as an argument
 	quoteDisplay(newQuote, newAuthor, newTitle, newYear);
 
-	//append the new author and title in the attribution
-	// showAttribution(quoteArray.author, quoteArray.title, quoteArray.year);
-
-
-
 };
+
+
+function test() {
+
+	for (var i = 0; i < Object.keys(quotes).length; i++) {
+		console.log("in test function now");
+		var testAuthor = quotes[i];
+		console.log(testAuthor.author);
+		$('.author').append(testAuthor.author);
+	};
+}
+
 
 
 //this function will display the quote

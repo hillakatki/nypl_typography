@@ -1,6 +1,7 @@
 //test variable for the source metadata
 var sources = {
 
+
   "a_01": {
     "title": "DAILY BREAKFAST [held by] MANSION [at] [BUFFALO, NY] ([COFFEE SHOP])",
     "date": "1851-1860",
@@ -65,9 +66,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.2f073960-621a-0132-226a-58d385a7b928.006.w.jpg"
   },
   "a_10": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -123,7 +124,7 @@ var sources = {
   "a_18": {
     "title": "The blind doe.",
     "date": 1887,
-    "collection": "Baby’s Own Æsop;",
+    "collection": "Baby's Own \\u00C6sop;",
     "document_link": "http://digitalcollections.nypl.org/items/90523bdd-42a9-cacc-e040-e00a18061cfc",
     "document_name": "nypl.digitalcollections.90523bdd-42a9-cacc-e040-e00a18061cfc.001.w.jpg"
   },
@@ -177,9 +178,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47da-e998-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "b_04": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -226,9 +227,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47dd-fe31-a3d9-e040-e00a18064a99.001.g.jpg"
   },
   "b_11": {
-    "title": "Tribuna literární a umelecká. 1924, čís. 16 ; Josef Čapek : Rezba do linolea.",
+    "title": "Tribuna liter\\u00E1rní a umeleck\\u00E1. 1924, \\u010D\\u00EDs. 16 ; Josef \\u010Capek : Rezba do linolea.",
     "date": 1924,
-    "collection": "Tribuna literární a umelecká.",
+    "collection": "Tribuna liter\\u00E1rní a umeleck\\u00E1.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e4-28c0-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e4-28c0-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -258,12 +259,12 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "c_03": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -310,34 +311,27 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47d9-64e8-a3d9-e040-e00a18064a99.001.g.jpg"
   },
   "c_10": {
-    "title": "The children's home",
-    "date": 1890,
-    "collection": "American Popular Songs.",
-    "document_link": "http://digitalcollections.nypl.org/items/510d47dd-eab9-a3d9-e040-e00a18064a99",
-    "document_name": "nypl.digitalcollections.510d47dd-eab9-a3d9-e040-e00a18064a99.001.w.jpg"
-  },
-  "c_11": {
     "title": "Century [...] September.",
     "date": 1896,
     "collection": "Magazine Posters",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-95dc-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-95dc-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "c_12": {
+  "c_11": {
     "title": "The Union is Dissolved!",
     "date": "1860-12-23",
     "collection": "The Charleston Mercury",
     "document_link": "http://digitalcollections.nypl.org/items/951a7066-0369-353d-e040-e00a18065ca4",
     "document_name": "nypl.digitalcollections.951a7066-0369-353d-e040-e00a18065ca4.001.w.jpg"
   },
-  "c_13": {
+  "c_12": {
     "title": "Conjurers' monthly magazine, vol. 1, no. 1 (front cover)",
     "date": "1906-1908",
     "collection": "Conjurers' monthly magazine.",
     "document_link": "http://digitalcollections.nypl.org/items/7417fc9f-8c1f-59ba-e040-e00a1806051e",
     "document_name": "nypl.digitalcollections.7417fc9f-8c1f-59ba-e040-e00a1806051e.001.w.jpg"
   },
-  "c_14": {
+  "c_13": {
     "title": "Hill Magical Co.",
     "date": "1890 - 1920",
     "collection": "Magic Scrapbooks: Separated Posters",
@@ -380,9 +374,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e3-53aa-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "d_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -429,9 +423,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e2-97fb-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "d_12": {
-    "title": "Cover of La Dépêche coloniale illustrée, July 15, 1912.",
+    "title": "Cover of La D\\u00E9p\\u00EAche coloniale illustr\\u00E9e, July 15, 1912.",
     "date": 1912,
-    "collection": "Dépêche coloniale illustrée.",
+    "collection": "Cover of La D\\u00E9p\\u00EAche coloniale illustr\\u00E9e.",
     "document_link": "http://digitalcollections.nypl.org/items/939adc98-40da-2853-e040-e00a18060e90",
     "document_name": "nypl.digitalcollections.939adc98-40da-2853-e040-e00a18060e90.001.w.jpg"
   },
@@ -506,9 +500,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47df-f728-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "e_09": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -597,9 +591,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.2f073960-621a-0132-226a-58d385a7b928.006.w.jpg"
   },
   "f_04": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -653,9 +647,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e3-53aa-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "g_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -748,19 +742,19 @@ var sources = {
     "date": 1980,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/ae6c1dd9-55e7-f55a-e040-e00a18062565",
-    "document_name": "seahorse_restaurant.png"
+    "document_name": "seahorse_restaurant.jpg"
   },
   "h_08": {
     "title": "Stockholm Restaurant",
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "h_09": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -835,16 +829,16 @@ var sources = {
     "document_name": "nypl.digitalcollections.b5cfbf49-a59d-7548-e040-e00a18060aef.001.g.jpg"
   },
   "i_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "i_06": {
     "title": "Class A: suits; No. 1. The new Bowdoin sack suit.",
     "date": 1900,
-    "collection": "Spring Book Of B. Kuppenheimer & Co. : Illustrating A New Century Of Clothing-Radically Different From The Old-And Incidentally Depicting The More Striking Changes In Men’s Wear During The Past One Hundred Years.",
+    "collection": "Spring Book Of B. Kuppenheimer & Co. : Illustrating A New Century Of Clothing-Radically Different From The Old-And Incidentally Depicting The More Striking Changes In Men's Wear During The Past One Hundred Years.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47dd-fe58-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47dd-fe58-a3d9-e040-e00a18064a99.001.g.jpg"
   },
@@ -912,9 +906,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.0aa019a0-b325-0133-afd0-00505686a51c.001.w.jpg"
   },
   "j_07": {
-    "title": "Sever, západ, východ, jih. (Cover)",
+    "title": "Sever, z\\u00E1pad, v\\u00FDchod, jih. (Cover)",
     "date": 1923,
-    "collection": "Sever, západ, východ, jih.",
+    "collection": "Sever, z\\u00E1pad, v\\u00FDchod, jih.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-d3f2-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-d3f2-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -937,7 +931,7 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "k_04": {
     "title": "A king and a few dukes.",
@@ -1028,12 +1022,12 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "l_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1059,9 +1053,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47de-09da-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "l_09": {
-    "title": "Plán. Ročník druhý, 1930, číslo první (1930, no. 1)",
+    "title": "Pl\\u00E1n. Ro\\u010Dn\\u00EDk druh\\u00FD, 1930, \\u010D\\u00EDslo prvn\\u00ED (1930, no. 1)",
     "date": "1929-1931",
-    "collection": "Plán.",
+    "collection": "Pl\\u00E1n.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e4-28b1-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e4-28b1-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1126,107 +1120,107 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "m_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "m_06": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "m_07": {
-    "title": "Twelfth century alphabet of initial letters.",
-    "date": 1882,
-    "collection": "Polychromatic Decoration as Applied to Buildings in the Mediaeval Styles",
-    "document_link": "http://digitalcollections.nypl.org/items/510d47e4-4fa9-a3d9-e040-e00a18064a99",
-    "document_name": "nypl.digitalcollections.510d47e4-4fa9-a3d9-e040-e00a18064a99.001.w.jpg"
+  "": {
+    "title": 0,
+    "date": 0,
+    "collection": 0,
+    "document_link": 0,
+    "document_name": 0
   },
-  "m_08": {
+  "m_07": {
     "title": "Animalia",
     "date": "1926-1948",
     "collection": "Collection of Book Jackets",
     "document_link": "http://digitalcollections.nypl.org/items/510d47db-cfb3-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47db-cfb3-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "m_09": {
+  "m_08": {
     "title": "Women are queer.",
     "date": "1928 - 1947",
     "collection": "Collection of Book Jackets",
     "document_link": "http://digitalcollections.nypl.org/items/510d47db-d497-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47db-d497-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "m_10": {
+  "m_09": {
     "title": "Specimen of Leavenworth's patent wood type, ... (Title page)",
     "date": "184-?",
-    "collection": "Specimen Of Leavenworth’s Patent Wood Type, Manufactured By J.m. Debow, Allentown, N.j.",
+    "collection": "Specimen Of Leavenworth's Patent Wood Type, Manufactured By J.m. Debow, Allentown, N.j.",
     "document_link": "http://digitalcollections.nypl.org/items/68dda987-ba6f-911d-e040-e00a18065d14",
     "document_name": "nypl.digitalcollections.68dda987-ba6f-911d-e040-e00a18065d14.001.w.jpg"
   },
-  "m_11": {
+  "m_10": {
     "title": "I love me : (I'm wild about myself)",
     "date": 1923,
     "collection": "Sheet Music Of Songs From Various Musicals, Plays, Movies, And Television.",
     "document_link": "http://digitalcollections.nypl.org/items/70ccb4fa-1e76-5433-e040-e00a18067967",
     "document_name": "nypl.digitalcollections.70ccb4fa-1e76-5433-e040-e00a18067967.001.w.jpg"
   },
-  "m_12": {
+  "m_11": {
     "title": "If 'tis a dream.",
     "date": 1890,
     "collection": "American Popular Songs.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47dd-eaea-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47dd-eaea-a3d9-e040-e00a18064a99.001.g.jpg"
   },
-  "m_13": {
+  "m_12": {
     "title": "Nadrealizam danas i ovde. Juni 1932, br. 3.",
     "date": 1932,
     "collection": "Nadrealizam danas i ovde.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-fcd1-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-fcd1-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "m_14": {
+  "m_13": {
     "title": "Nadrealizam danas i ovde. Juna 1931, br. 1.",
     "date": 1931,
     "collection": "Nadrealizam danas i ovde.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e3-19ee-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e3-19ee-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "m_15": {
+  "m_14": {
     "title": "O: Kurske, o Komsomole, o mae ... (Cover)",
     "date": 1924,
-    "collection": "O: Kurske, O Komsomole, O Mae : O Polete, O Chapline, O Germanii, O Nefti, O 5 Interna︠t︡sionale I O Proch",
+    "collection": "O: Kurske, O Komsomole, O Mae : O Polete, O Chapline, O Germanii, O Nefti, O 5 Internatsionale I O Proch",
     "document_link": "http://digitalcollections.nypl.org/items/898e7aa7-596f-0fdc-e040-e00a1806456c",
     "document_name": "nypl.digitalcollections.898e7aa7-596f-0fdc-e040-e00a1806456c.001.w.jpg"
   },
-  "m_16": {
+  "m_15": {
     "title": "The Union is Dissolved!",
     "date": "1860-12-22",
     "collection": "The Charleston Mercury",
     "document_link": "http://digitalcollections.nypl.org/items/951a7066-0369-353d-e040-e00a18065ca4",
     "document_name": "nypl.digitalcollections.951a7066-0369-353d-e040-e00a18065ca4.001.w.jpg"
   },
-  "m_17": {
+  "m_16": {
     "title": "Give us a fleet : act III",
     "date": 1908,
     "collection": "Sheet Music Of Songs From Various Musicals, Plays, Movies, And Television.",
     "document_link": "http://digitalcollections.nypl.org/items/70813139-0b1d-a2b1-e040-e00a18064d52",
     "document_name": "nypl.digitalcollections.70813139-0b1d-a2b1-e040-e00a18064d52.001.w.jpg"
   },
-  "m_18": {
+  "m_17": {
     "title": "Miss Brooke",
     "date": 1871,
     "collection": "Middlemarch: A Study Of Provincial Life",
     "document_link": "http://digitalcollections.nypl.org/items/e9ea0c80-087d-0133-420f-58d385a7bbd0",
     "document_name": "nypl.digitalcollections.e9ea0c80-087d-0133-420f-58d385a7bbd0.001.g.jpg"
   },
-  "m_19": {
+  "m_18": {
     "title": "Poster of The Guild Theatre's stage production The Doctor's Dilemma.",
     "date": 1927,
     "collection": "Billy Rose Theatre Division Posters",
@@ -1262,76 +1256,69 @@ var sources = {
     "document_name": "nypl.digitalcollections.b5cfbf49-a58b-7548-e040-e00a18060aef.001.g.jpg"
   },
   "n_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "n_06": {
-    "title": "Twelfth century alphabet of initial letters.",
-    "date": 1882,
-    "collection": "Polychromatic Decoration as Applied to Buildings in the Mediaeval Styles",
-    "document_link": "http://digitalcollections.nypl.org/items/510d47e4-4fa9-a3d9-e040-e00a18064a99",
-    "document_name": "nypl.digitalcollections.510d47e4-4fa9-a3d9-e040-e00a18064a99.001.w.jpg"
-  },
-  "n_07": {
     "title": "Animalia",
     "date": "1926-1949",
     "collection": "Collection of Book Jackets",
     "document_link": "http://digitalcollections.nypl.org/items/510d47db-cfb3-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47db-cfb3-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "n_08": {
+  "n_07": {
     "title": "Women are queer.",
     "date": "1930 - 1947",
     "collection": "Collection of Book Jackets",
     "document_link": "http://digitalcollections.nypl.org/items/510d47db-d497-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47db-d497-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "n_09": {
+  "n_08": {
     "title": "Chicagoan, v. 2, no. 5",
     "date": "11/2/1926",
     "collection": "Chicagoan",
     "document_link": "http://digitalcollections.nypl.org/items/0e5a5380-7f64-0130-cc15-0050569c7c06",
     "document_name": "nypl.digitalcollections.0e5a5380-7f64-0130-cc15-0050569c7c06.001.w.jpg"
   },
-  "n_10": {
+  "n_09": {
     "title": "Chicagoan, v. 8, no. 3",
     "date": "10/26/1929",
     "collection": "Chicagoan",
     "document_link": "http://digitalcollections.nypl.org/items/2b506170-7ed7-0130-e214-0050569c7c06",
     "document_name": "nypl.digitalcollections.2b506170-7ed7-0130-e214-0050569c7c06.001.w.jpg"
   },
-  "n_11": {
+  "n_10": {
     "title": "Barney O'Flynn",
     "date": 1903,
     "collection": "Sheet Music Of Songs From Various Musicals, Plays, Movies, And Television.",
     "document_link": "http://digitalcollections.nypl.org/items/8e1ec306-7249-facb-e040-e00a180678ae",
     "document_name": "nypl.digitalcollections.8e1ec306-7249-facb-e040-e00a180678ae.001.w.jpg"
   },
-  "n_12": {
+  "n_11": {
     "title": "Scribner's for February.",
     "date": 1896,
     "collection": "Magazine Posters",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-97e3-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-97e3-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "n_13": {
+  "n_12": {
     "title": "Vanity the new weekly paper.",
     "date": 1896,
     "collection": "Magazine Posters",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-9810-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-9810-a3d9-e040-e00a18064a99.001.w.jpg"
   },
-  "n_14": {
+  "n_13": {
     "title": "The Union is Dissolved!",
     "date": "1860-12-20",
     "collection": "The Charleston Mercury",
     "document_link": "http://digitalcollections.nypl.org/items/951a7066-0369-353d-e040-e00a18065ca4",
     "document_name": "nypl.digitalcollections.951a7066-0369-353d-e040-e00a18065ca4.001.w.jpg"
   },
-  "n_15": {
+  "n_14": {
     "title": "I Didn't Raise My Boy to Be a Soldier",
     "date": 1915,
     "collection": "Miscellaneous Rare Book Exhibit Items",
@@ -1392,12 +1379,12 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "o_09": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1416,7 +1403,7 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47db-d497-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "o_12": {
-    "title": "Specimen of Leavenworth's patent wood type, ... (Title page)",
+    "title": "Specimen Of Leavenworth's Patent Wood Type, Manufactured By J.m. Debow, Allentown, N.j.",
     "date": "184-?",
     "collection": "Specimen Of Leavenworth’s Patent Wood Type, Manufactured By J.m. Debow, Allentown, N.j.",
     "document_link": "http://digitalcollections.nypl.org/items/68dda987-ba6f-911d-e040-e00a18065d14",
@@ -1453,7 +1440,7 @@ var sources = {
   "o_17": {
     "title": "O: Kurske, o Komsomole, o mae ... (Cover)",
     "date": 1924,
-    "collection": "O: Kurske, O Komsomole, O Mae : O Polete, O Chapline, O Germanii, O Nefti, O 5 Interna︠t︡sionale I O Proch",
+    "collection": "O: Kurske, O Komsomole, O Mae : O Polete, O Chapline, O Germanii, O Nefti, O 5 Internatsionale I O Proch",
     "document_link": "http://digitalcollections.nypl.org/items/898e7aa7-596f-0fdc-e040-e00a1806456c",
     "document_name": "nypl.digitalcollections.898e7aa7-596f-0fdc-e040-e00a1806456c.001.w.jpg"
   },
@@ -1467,7 +1454,7 @@ var sources = {
   "o_19": {
     "title": "Front cover",
     "date": "1928-01",
-    "collection": "Opportunity: The Salesman’s Guide",
+    "collection": "Opportunity: The Salesman's Guide",
     "document_link": "http://digitalcollections.nypl.org/items/c42b6fbb-2e9e-b3fe-e040-e00a18063113",
     "document_name": "nypl.digitalcollections.c42b6fbb-2e9e-b3fe-e040-e00a18063113.001.w.jpg"
   },
@@ -1500,9 +1487,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47dc-4868-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "p_05": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1528,9 +1515,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e2-c5ba-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "p_09": {
-    "title": "Plán. Ročník druhý, 1930, číslo první (1930, no. 1)",
+    "title": "Pl\\u00E1n. Ro\\u010Dn\\u00EDk druh\\u00FD, 1930, \\u010D\\u00EDslo prvn\\u00ED (1930, no. 1)",
     "date": "1929-1930",
-    "collection": "Plán.",
+    "collection": "Pl\\u00E1n.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e4-28b1-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e4-28b1-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1570,9 +1557,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47db-d351-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "q_04": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1637,7 +1624,7 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "r_07": {
     "title": "The Tree Houses",
@@ -1647,16 +1634,16 @@ var sources = {
     "document_name": "nypl.digitalcollections.2f073960-621a-0132-226a-58d385a7b928.006.w.jpg"
   },
   "r_08": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "r_09": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1696,16 +1683,16 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e2-95dc-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "r_15": {
-    "title": "Dur, cērt sit. (Cover)",
+    "title": "Dur, c\\u0113rt sit. (Cover)",
     "date": 1930,
-    "collection": "Dur, cērt sit.",
+    "collection": "Dur, c\\u0113rt sit.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-c593-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-c593-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "r_16": {
-    "title": "Sever, západ, východ, jih. (Cover)",
+    "title": "Sever, z\\u00E1pad, v\\u00FDchod, jih. (Cover)",
     "date": 1923,
-    "collection": "Sever, západ, východ, jih.",
+    "collection": "Sever, z\\u00E1pad, v\\u00FDchod, jih.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-d3f2-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-d3f2-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1756,19 +1743,19 @@ var sources = {
     "date": 1980,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/ae6c1dd9-55e7-f55a-e040-e00a18062565",
-    "document_name": "seahorse_restaurant.png"
+    "document_name": "seahorse_restaurant.jpg"
   },
   "s_07": {
     "title": "Stockholm Restaurant",
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "s_08": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1859,7 +1846,7 @@ var sources = {
   "semi_colon_01": {
     "title": "Telliamed ... [title page].",
     "date": 1797,
-    "collection": "Telliamed; Or, The World Explain’d: Containing Discourses Between An Indian Philosopher And A Missionary, On The Diminution Of The Sea--The Formation Of The Earth--The Origin Of Men & Animals",
+    "collection": "Telliamed; Or, The World Explain'd: Containing Discourses Between An Indian Philosopher And A Missionary, On The Diminution Of The Sea--The Formation Of The Earth--The Origin Of Men & Animals",
     "document_link": "http://digitalcollections.nypl.org/items/8bbf157f-b50b-4bb3-e040-e00a18067eee",
     "document_name": "nypl.digitalcollections.8bbf157f-b50b-4bb3-e040-e00a18067eee.001.w.jpg"
   },
@@ -1910,7 +1897,7 @@ var sources = {
     "date": 1963,
     "collection": "Buttolph Collection of Menus",
     "document_link": "http://digitalcollections.nypl.org/items/5e66b3e8-f9ac-d471-e040-e00a180654d7",
-    "document_name": "stockholm_restaurant.png"
+    "document_name": "stockholm_restaurant.jpg"
   },
   "t_06": {
     "title": "The Queen was in the parlour, eating bread and honey.",
@@ -1920,9 +1907,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.69aaca43-cc49-bb49-e040-e00a1806643c.001.w.jpg"
   },
   "t_07": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -1943,7 +1930,7 @@ var sources = {
   "t_10": {
     "title": "Zang Tumb Tumb.",
     "date": 1914,
-    "collection": "Zang Tumb Tuuum : Adrianopoli Ottobre 1912 : Parole In Libertà",
+    "collection": "Zang Tumb Tuuum : Adrianopoli Ottobre 1912 : Parole In Libert\\u00E0",
     "document_link": "http://digitalcollections.nypl.org/items/8a2ef7b2-9bc3-5151-e040-e00a18063120",
     "document_name": "nypl.digitalcollections.8a2ef7b2-9bc3-5151-e040-e00a18063120.001.w.jpg"
   },
@@ -1983,9 +1970,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.b5cfbf49-a58b-7548-e040-e00a18060aef.001.g.jpg"
   },
   "u_04": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -2011,16 +1998,16 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47dc-4875-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "u_08": {
-    "title": "Dur, cērt sit. (Cover)",
+    "title": "Dur, c\\u0113rt sit. (Cover)",
     "date": 1930,
-    "collection": "Dur, cērt sit.",
+    "collection": "Dur, c\\u0113rt sit.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e2-c593-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e2-c593-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "u_09": {
-    "title": "Tribuna literární a umelecká. 1924, čís. 16 ; Josef Čapek : Rezba do linolea.",
+    "title": "Tribuna liter\\u00E1rní a umeleck\\u00E1. 1924, \\u010D\\u00EDs. 16 ; Josef \\u010Capek : Rezba do linolea.",
     "date": 1924,
-    "collection": "Tribuna literární a umelecká.",
+    "collection": "Tribuna liter\\u00E1rní a umeleck\\u00E1.",
     "document_link": "http://digitalcollections.nypl.org/items/510d47e4-28c0-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e4-28c0-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -2053,9 +2040,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e2-913a-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "v_03": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -2186,9 +2173,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.510d47e3-5a14-a3d9-e040-e00a18064a99.001.w.jpg"
   },
   "x_03": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -2242,13 +2229,6 @@ var sources = {
     "document_name": "nypl.digitalcollections.5e66b3e9-04d5-d471-e040-e00a180654d7.001.g.jpg"
   },
   "y_06": {
-    "title": "Harper's July",
-    "date": "189-?-1918 - 1899",
-    "collection": "Posters. New York, 1890S-1907.",
-    "document_link": "http://digitalcollections.nypl.org/items/510d47dc-487d-a3d9-e040-e00a18064a99",
-    "document_name": "nypl.digitalcollections.510d47dc-487d-a3d9-e040-e00a18064a99.001.w.jpg"
-  },
-  "y_07": {
     "title": "Century [...] September.",
     "date": 1896,
     "collection": "Magazine Posters",
@@ -2277,9 +2257,9 @@ var sources = {
     "document_name": "nypl.digitalcollections.898f2287-4fff-c419-e040-e00a18064f39.001.w.jpg"
   },
   "z_04": {
-    "title": "Alphabet du temps de l'Abbé Suger, tiré du cabinet de M. Debret",
+    "title": "Alphabet du temps de l'Abb\\u00E9 Suger, tir\\u00E9 du cabinet de M. Debret",
     "date": 1874,
-    "collection": "Recueil de cent planches de décoration : extraites du Journal-manuel de peintures",
+    "collection": "Recueil de cent planches de d\\u00E9coration : extraites du Journal-manuel de peintures",
     "document_link": "http://digitalcollections.nypl.org/items/510d47da-3b26-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47da-3b26-a3d9-e040-e00a18064a99.001.w.jpg"
   },
@@ -2293,7 +2273,7 @@ var sources = {
   "z_06": {
     "title": "Zang Tumb Tumb.",
     "date": 1914,
-    "collection": "Zang Tumb Tuuum : Adrianopoli Ottobre 1912 : Parole In Libertà",
+    "collection": "Zang Tumb Tuuum : Adrianopoli Ottobre 1912 : Parole In Libert\\u00E0",
     "document_link": "http://digitalcollections.nypl.org/items/8a2ef7b2-9bc3-5151-e040-e00a18063120",
     "document_name": "nypl.digitalcollections.8a2ef7b2-9bc3-5151-e040-e00a18063120.001.w.jpg"
   },
@@ -2318,8 +2298,6 @@ var sources = {
     "document_link": "http://digitalcollections.nypl.org/items/510d47e3-19ee-a3d9-e040-e00a18064a99",
     "document_name": "nypl.digitalcollections.510d47e3-19ee-a3d9-e040-e00a18064a99.001.w.jpg"
   }
-
-
 
 
 };

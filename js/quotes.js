@@ -14,7 +14,7 @@ var quotes = {
     "year": 1956
   },
   "2": {
-    "quote": "The pieces I am, she gather them and gave them back to me in all the right order.",
+    "quote": "In spite of everything, I still believe people are really good at heart.",
     "author": "Anne Frank",
     "title": "The Diary of Anne Frank",
     "year": 1947
@@ -51,7 +51,7 @@ var quotes = {
   },
   "8": {
     "quote": "I would always rather be happy than dignified.",
-    "author": "Charlotte Brontë",
+    "author": "Charlotte Bront\u00EB",
     "title": "Jane Eyre",
     "year": 1847
   },

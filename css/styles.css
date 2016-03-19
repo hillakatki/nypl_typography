@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'National-Light';
   src: url('/fonts/National-Light.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('National-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/National-Light.woff2') format('woff2'), /* Super Modern Browsers */
        url('/fonts/National-Light.woff') format('woff'), /* Pretty Modern Browsers */
        url('/fonts/National-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'National-Semibold';
   src: url('/fonts/National-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  src: url('National-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('/fonts/National-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
        url('/fonts/National-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
        url('/fonts/National-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
