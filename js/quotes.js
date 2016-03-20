@@ -75,7 +75,7 @@ var quotes = {
   },
   "12": {
     "quote": "She wasn't doing a thing that I could see, except standing there leaning on the balcony railing, holding the universe together.",
-    "author": "J. D. Salinger",
+    "author": "J.D. Salinger",
     "title": "A Girl I Knew",
     "year": 1948
   },
@@ -234,6 +234,192 @@ var quotes = {
     "author": "William Shakespeare",
     "title": "Twelfth Night",
     "year": 1602
+  },
+  "39": {
+    "quote": "It's the possibility of having a dream come true that makes life interesting.",
+    "author": "Paulo Coelho",
+    "title": "The Alchemist",
+    "year": 1988
+  },
+  "40": {
+    "quote": "I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun.",
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "year": 1813
+  },
+  "41": {
+    "quote": "There is no greater agony than bearing an untold story inside you.",
+    "author": "Maya Angelou",
+    "title": "I Know Why the Caged Bird Sings",
+    "year": 1969
+  },
+  "42": {
+    "quote": "Still, there are times I am bewildered by each mile I have traveled, each meal I have eaten, each person I have known, each room in which I have slept. As ordinary as it all appears, there are times when it is beyond my imagination.",
+    "author": "Jhumpa Lahiri",
+    "title": "Interpreter of Maladies",
+    "year": 1999
+  },
+  "43": {
+    "quote": "He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, like the sun, even without looking.",
+    "author": "Leo Tolstoy",
+    "title": "Anna Karenina",
+    "year": 1877
+  },
+  "44": {
+    "quote": "You call yourself a free spirit, a 'wild thing,' and you're terrified somebody's gonna stick you in a cage. Well baby, you're already in that cage. You built it yourself. And it's not bounded in the west by Tulip, Texas, or in the east by Somaliland. It's wherever you go. Because no matter where you run, you just end up running into yourself.",
+    "author": "Truman Capote",
+    "title": "Breakfast at Tiffany's",
+    "year": 1958
+  },
+  "45": {
+    "quote": "It was times like these when I thought my father, who hated guns and had never been to any wars, was the bravest man who ever lived.",
+    "author": "Harper Lee",
+    "title": "To Kill A Mockingbird",
+    "year": 1960
+  },
+  "46": {
+    "quote": "Memories warm you up from the inside. But they also tear you apart.",
+    "author": "Haruki Murakami",
+    "title": "Kafka on the Shore",
+    "year": 2002
+  },
+  "47": {
+    "quote": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. You're on your own. And you know what you know. And YOU are the one who'll decide where to go...",
+    "author": "Dr. Seuss",
+    "title": "Oh, The Places You'll Go!",
+    "year": 1990
+  },
+  "48": {
+    "quote": "There is a loneliness that can be rocked. Arms crossed, knees drawn up, holding, holding on, this motion, unlike a ship's, smooths and contains the rocker. It's an inside kind, wrapped tight like skin. Then there is the loneliness that roams. No rocking can hold it down. It is alive. On its own. A dry and spreading thing that makes the sound of one's own feet going seem to come from a far off place.",
+    "author": "Toni Morrison",
+    "title": "Beloved",
+    "year": 1987
+  },
+  "49": {
+    "quote": "Love is the longing for the half of ourselves we have lost.",
+    "author": "Milan Kundera",
+    "title": "The Unbearable Lightness of Being",
+    "year": 1984
+  },
+  "50": {
+    "quote": "All that is gold does not glitter, Not all those who wander are lost; The old that is strong does not wither, Deep roots are not reached by the frost.",
+    "author": "J. R. R. Tolkien",
+    "title": "The Fellowship of the Ring",
+    "year": 1954
+  },
+  "51": {
+    "quote": "My advice is, never do tomorrow what you can do today. Procrastination is the thief of time.",
+    "author": "Charles Dickens",
+    "title": "David Copperfield",
+    "year": 1850
+  },
+  "52": {
+    "quote": "The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.",
+    "author": "Jack Kerouac",
+    "title": "On the Road",
+    "year": 1957
+  },
+  "53": {
+    "quote": "Behind every exquisite thing that existed, there was something tragic.",
+    "author": "Oscar Wilde",
+    "title": "The Picture of Dorian Gray",
+    "year": 1890
+  },
+  "54": {
+    "quote": "If he loved with all the powers of his puny being, he couldn't love as much in eighty years, as I could in a day.",
+    "author": "Emily Bront\u00EB",
+    "title": "Wuthering Heights",
+    "year": 1847
+  },
+  "55": {
+    "quote": "But Paris was a very old city and we were young and nothing was simple there, not even poverty, nor sudden money, nor the moonlight, nor right and wrong nor the breathing of someone who lay beside you in the moonlight.",
+    "author": "Ernest Hemingway",
+    "title": "A Moveable Feast",
+    "year": 1964
+  },
+  "56": {
+    "quote": "Life is to be lived, not controlled; and humanity is won by continuing to play in face of certain defeat.",
+    "author": "Ralph Ellison",
+    "title": "Invisible Man",
+    "year": 1952
+  },
+  "57": {
+    "quote": "I loved her against reason, against promise, against peace, against hope, against happiness, against all discouragement that could be.",
+    "author": "Charles Dickens",
+    "title": "Great Expectations",
+    "year": 1861
+  },
+  "58": {
+    "quote": "Just remember If one bird carried every grain of sand, grain by grain, across the ocean, by the time he got them all on the other side, that would only be the beginning of eternity.",
+    "author": "Truman Capote",
+    "title": "In Cold Blood",
+    "year": 1965
+  },
+  "59": {
+    "quote": "Sometimes I think it's better to suffer bitter unhappiness and to fight and to scream out, and even to suffer that terrible pain, than to just be... safe. At least she knows she's living.",
+    "author": "Betty Smith",
+    "title": "A Tree Grows in Brooklyn",
+    "year": 1943
+  },
+  "60": {
+    "quote": "Don't ever tell anybody anything. If you do, you start missing everybody.",
+    "author": "J.D. Salinger",
+    "title": "The Catcher in the Rye",
+    "year": 1951
+  },
+  "61": {
+    "quote": "Not all those who wander are lost.",
+    "author": "J.R.R. Tolkien",
+    "title": "The Lord of the Rings",
+    "year": 1954
+  },
+  "62": {
+    "quote": "The truth will set you free. But not until it is finished with you.",
+    "author": "David Foster Wallace",
+    "title": "Infinite Jest",
+    "year": 1996
+  },
+  "63": {
+    "quote": "I can't go back to yesterday because I was a different person then.",
+    "author": "Lewis Carroll",
+    "title": "Alice's Adventures in Wonderland",
+    "year": 1865
+  },
+  "64": {
+    "quote": "Real courage is when you know you're licked before you begin, but you begin anyway and see it through no matter what.",
+    "author": "Harper Lee",
+    "title": "To Kill a Mockingbird",
+    "year": 1960
+  },
+  "65": {
+    "quote": "One runs the risk of weeping a little, if one allows himself to be tamed.",
+    "author": "Antoine de Saint-Exup\u00E9ry",
+    "title": "The Little Prince",
+    "year": 1943
+  },
+  "66": {
+    "quote": "I love my past. I love my present. I'm not ashamed of what I've had, and I'm not sad because I have it no longer.",
+    "author": "Colette",
+    "title": "Ch\u00E9ri",
+    "year": 1920
+  },
+  "67": {
+    "quote": "It is always important to know when something has reached its end. Closing circles, shutting doors, finishing chapters, it doesn't matter what we call it; what matters is to leave in the past those moments in life that are over.",
+    "author": "Paulo Coelho",
+    "title": "The Zahir",
+    "year": 2005
+  },
+  "68": {
+    "quote": "Whatever we had missed, we possessed together the precious, the incommunicable past.",
+    "author": "Willa Cather",
+    "title": "My Antonia",
+    "year": 1918
+  },
+  "69": {
+    "quote": "We are imperfect mortal beings, aware of that mortality even as we push it away, failed by our very complication, so wired that when we mourn our losses we also mourn, for better or for worse, ourselves. As we were. As we are no longer. As we will one day not be at all.",
+    "author": "Joan Didion",
+    "title": "The Year of Magical Thinking",
+    "year": 2005
   }
 
 
