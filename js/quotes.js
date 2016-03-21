@@ -8,7 +8,7 @@ var quotes = {
     "year": 1962
   },
   "1": {
-    "quote": "America, I've given you all and now I'm nothing.",
+    "quote": "America, I’ve given you all and now I’m nothing.",
     "author": "Allen Ginsburg",
     "title": "America",
     "year": 1956
@@ -20,13 +20,13 @@ var quotes = {
     "year": 1947
   },
   "3": {
-    "quote": "As Estha stirred the thick jam he thought two thoughts and the two thoughts he thought were these. Anything can happen to anyone. And it is best to be prepared.",
+    "quote": "As Estha stirred the thick jam he thought two thoughts. Anything can happen to anyone. And it is best to be prepared.",
     "author": "Arundhati Roy",
     "title": "The God of Small Things",
     "year": 1997
   },
   "4": {
-    "quote": "'Dear God,' she prayed, 'let me be something every minute of every hour of my life.'",
+    "quote": "‘Dear God,’ she prayed, ‘let me be something every minute of every hour of my life.’",
     "author": "Betty Smith",
     "title": "A Tree Grows in Brooklyn",
     "year": 1943
@@ -51,7 +51,7 @@ var quotes = {
   },
   "8": {
     "quote": "I would always rather be happy than dignified.",
-    "author": "Charlotte Bront\u00EB",
+    "author": "Charlotte Bront\\u00EB",
     "title": "Jane Eyre",
     "year": 1847
   },
@@ -74,7 +74,7 @@ var quotes = {
     "year": 1985
   },
   "12": {
-    "quote": "She wasn't doing a thing that I could see, except standing there leaning on the balcony railing, holding the universe together.",
+    "quote": "She wasn’t doing a thing that I could see, except standing there leaning on the balcony railing, holding the universe together.",
     "author": "J.D. Salinger",
     "title": "A Girl I Knew",
     "year": 1948
@@ -92,13 +92,13 @@ var quotes = {
     "year": 1813
   },
   "15": {
-    "quote": "And now that you don't have to be perfect, you can be good.",
+    "quote": "And now that you don’t have to be perfect, you can be good.",
     "author": "John Steinbeck",
     "title": "East of Eden",
     "year": 1952
   },
   "16": {
-    "quote": "Sometimes I can feel my bones straining under the weight of all the lives I'm not living.",
+    "quote": "Sometimes I can feel my bones straining under the weight of all the lives I’m not living.",
     "author": "Jonathan Safran Foer",
     "title": "Extremely Loud and Incredibly Close",
     "year": 2011
@@ -254,7 +254,7 @@ var quotes = {
     "year": 1969
   },
   "42": {
-    "quote": "Still, there are times I am bewildered by each mile I have traveled, each meal I have eaten, each person I have known, each room in which I have slept. As ordinary as it all appears, there are times when it is beyond my imagination.",
+    "quote": "Still, there are times I am bewildered by each mile I have traveled, each meal I have eaten, each person I have known. As ordinary as it all appears, there are times when it is beyond my imagination.",
     "author": "Jhumpa Lahiri",
     "title": "Interpreter of Maladies",
     "year": 1999
@@ -264,12 +264,6 @@ var quotes = {
     "author": "Leo Tolstoy",
     "title": "Anna Karenina",
     "year": 1877
-  },
-  "44": {
-    "quote": "You call yourself a free spirit, a 'wild thing,' and you're terrified somebody's gonna stick you in a cage. Well baby, you're already in that cage. You built it yourself. And it's not bounded in the west by Tulip, Texas, or in the east by Somaliland. It's wherever you go. Because no matter where you run, you just end up running into yourself.",
-    "author": "Truman Capote",
-    "title": "Breakfast at Tiffany's",
-    "year": 1958
   },
   "45": {
     "quote": "It was times like these when I thought my father, who hated guns and had never been to any wars, was the bravest man who ever lived.",
@@ -290,7 +284,7 @@ var quotes = {
     "year": 1990
   },
   "48": {
-    "quote": "There is a loneliness that can be rocked. Arms crossed, knees drawn up, holding, holding on, this motion, unlike a ship's, smooths and contains the rocker. It's an inside kind, wrapped tight like skin. Then there is the loneliness that roams. No rocking can hold it down. It is alive. On its own. A dry and spreading thing that makes the sound of one's own feet going seem to come from a far off place.",
+    "quote": "Then there is the loneliness that roams. No rocking can hold it down. It is alive. On its own. A dry and spreading thing that makes the sound of one's own feet going seem to come from a far off place.",
     "author": "Toni Morrison",
     "title": "Beloved",
     "year": 1987
@@ -314,7 +308,7 @@ var quotes = {
     "year": 1850
   },
   "52": {
-    "quote": "The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.",
+    "quote": "The only people for me are the mad ones, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars.",
     "author": "Jack Kerouac",
     "title": "On the Road",
     "year": 1957
@@ -327,12 +321,12 @@ var quotes = {
   },
   "54": {
     "quote": "If he loved with all the powers of his puny being, he couldn't love as much in eighty years, as I could in a day.",
-    "author": "Emily Bront\u00EB",
+    "author": "Emily Bront\\u00EB",
     "title": "Wuthering Heights",
     "year": 1847
   },
   "55": {
-    "quote": "But Paris was a very old city and we were young and nothing was simple there, not even poverty, nor sudden money, nor the moonlight, nor right and wrong nor the breathing of someone who lay beside you in the moonlight.",
+    "quote": "But Paris was a very old city and nothing was simple there, not even poverty, nor sudden money, nor the moonlight, nor right and wrong nor the breathing of someone who lay beside you in the moonlight.",
     "author": "Ernest Hemingway",
     "title": "A Moveable Feast",
     "year": 1964
@@ -356,7 +350,7 @@ var quotes = {
     "year": 1965
   },
   "59": {
-    "quote": "Sometimes I think it's better to suffer bitter unhappiness and to fight and to scream out, and even to suffer that terrible pain, than to just be... safe. At least she knows she's living.",
+    "quote": "Sometimes I think it's better to suffer bitter unhappiness and to fight and to scream out, and even to suffer that terrible pain, than to just be safe. At least she knows she's living.",
     "author": "Betty Smith",
     "title": "A Tree Grows in Brooklyn",
     "year": 1943
@@ -393,18 +387,18 @@ var quotes = {
   },
   "65": {
     "quote": "One runs the risk of weeping a little, if one allows himself to be tamed.",
-    "author": "Antoine de Saint-Exup\u00E9ry",
+    "author": "Antoine de Saint-Exup\\u00E9ry",
     "title": "The Little Prince",
     "year": 1943
   },
   "66": {
     "quote": "I love my past. I love my present. I'm not ashamed of what I've had, and I'm not sad because I have it no longer.",
     "author": "Colette",
-    "title": "Ch\u00E9ri",
+    "title": "Ch\\u00E9ri",
     "year": 1920
   },
   "67": {
-    "quote": "It is always important to know when something has reached its end. Closing circles, shutting doors, finishing chapters, it doesn't matter what we call it; what matters is to leave in the past those moments in life that are over.",
+    "quote": "Closing circles, shutting doors, finishing chapters, it doesn’t matter what we call it; what matters is to leave in the past those moments in life that are over.",
     "author": "Paulo Coelho",
     "title": "The Zahir",
     "year": 2005
@@ -416,11 +410,12 @@ var quotes = {
     "year": 1918
   },
   "69": {
-    "quote": "We are imperfect mortal beings, aware of that mortality even as we push it away, failed by our very complication, so wired that when we mourn our losses we also mourn, for better or for worse, ourselves. As we were. As we are no longer. As we will one day not be at all.",
+    "quote": "When we mourn our losses we also mourn, for better or for worse, ourselves. As we were. As we are no longer. As we will one day not be at all.",
     "author": "Joan Didion",
     "title": "The Year of Magical Thinking",
     "year": 2005
   }
+
 
 
 };
